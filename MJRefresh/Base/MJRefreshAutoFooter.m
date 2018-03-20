@@ -33,6 +33,7 @@
     } else { // 被移除了
         if (self.hidden == NO) {
             self.scrollView.mj_insetB -= self.mj_h;
+            NSLog(@"我改了什么");
         }
     }
 }
