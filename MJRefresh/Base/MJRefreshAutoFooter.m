@@ -23,6 +23,9 @@
     if (newSuperview) { // 新的父控件
         if (self.hidden == NO) {
             self.scrollView.mj_insetB += self.mj_h;
+            
+            
+            NSLog(@"我改了什么");
         }
         
         // 设置位置
